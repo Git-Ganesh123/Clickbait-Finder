@@ -12,7 +12,7 @@ app = Flask(__name__)
 video_url = input("Enter the YouTube video URL: ")
 
 # API key
-GEMINI_API_KEY = "AIzaSyB4F6HvvRElyKjxnRdZ5NvFIgdJH3Jzni8"
+GEMINI_API_KEY = "key"
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Generation configuration
